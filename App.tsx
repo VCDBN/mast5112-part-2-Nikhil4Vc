@@ -3,11 +3,11 @@ import {Text, View} from 'react-native';
 import Ionic from 'react-native-vector-icons/Ionicons';
 import { NavigationContainer } from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from './screens/Homescreen.js';
-import ProfileScreen from './screens/Profilescreen.js';
-import SearchScreen from './screens/Searchscreen.js';
+import HomeScreen from './screens/Homescreen';
+import ProfileScreen from './screens/Profilescreen';
+import SearchScreen from './screens/Searchscreen';
 import AppNavigator from './app/app.navigator.js';
-import Book from './screens/Book.js';
+import Book from './screens/Book';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
